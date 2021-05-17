@@ -2,8 +2,7 @@
 import pytest
 
 class NotInRange(Exception):
-    def __init__(self, input, message="Value not find") :
-        self.input= input
+    def __init__(self, message="Value not in range") :
         self.message= message
         super().__init__(message)
 
