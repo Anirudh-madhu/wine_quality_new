@@ -11,4 +11,7 @@ pandas
 pytest
 tox
 flake8
+falsk
+guincorn
+
 
